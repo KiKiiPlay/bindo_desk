@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  background-color: #670f85;
+}
+.container {
+  max-width: 768px;
+  margin-inline: auto; /* left and right */
+  margin-block: 3rem; /* top and bottom */
+}
+
+#bingo_desk {
+  background-color: darkorchid;
+}
+
+.cells {
+  position: relative;
+  display: inline-block;
+  width: 10%;
+  aspect-ratio: 1/1;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+
+.cellsNum {
+  margin: 0;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  font-size: 35px;
+}
