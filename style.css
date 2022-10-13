@@ -1,15 +1,10 @@
 body {
   margin: 0;
-  background-color: #670f85;
 }
 .container {
   max-width: 768px;
   margin-inline: auto; /* left and right */
   margin-block: 3rem; /* top and bottom */
-}
-
-#bingo_desk {
-  background-color: darkorchid;
 }
 
 .cells {
