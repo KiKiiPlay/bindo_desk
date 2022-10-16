@@ -18,6 +18,10 @@ body {
   padding-top: 20px;
 }
 
+.newBackground {
+  background-color: lightcoral;
+}
+
 #centerObj {
   display: block;
   margin-inline: auto;
